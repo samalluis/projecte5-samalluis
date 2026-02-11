@@ -1,1 +1,1 @@
-[enllaç a la documentacio del Windows server](file:///C:/Users/cfgm2smxa07/Downloads/_P02_%20Llicenciament%20Windows%20Server%202025%20(1).pdf)
+[enllaç a la documentacio del Windows server](https://docs.google.com/document/d/1BXTbTOcvW08ddQ6RzkdwqdK_aUoaCFnv6gL9wiktWyU/edit?usp=sharing)
