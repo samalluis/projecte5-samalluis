@@ -2,7 +2,7 @@
 
 ---
 
-## 1. Creació d’Estructura d’Unitats Organitzatives (OU) — [2 Punts]
+## 1. Creació d’Estructura d’Unitats Organitzatives (OU) 
 
 ### Procediment Operatiu
 1. Inicialitzar la consola de gestió **Active Directory Users and Computers** (`dsa.msc`).
@@ -17,7 +17,7 @@ L'arquitectura lògica basada en Unitats Organitzatives és la condició inheren
 
 ---
 
-## 2. Creació i Anidament de Grups de Seguretat — [2 Punts]
+## 2. Creació i Anidament de Grups de Seguretat  
 
 ### Configuració de Rols i Tipologies
 Dins de l'OU `Grups`, es requereix la creació de les següents entitats:
@@ -39,7 +39,7 @@ Dins de l'OU `Grups`, es requereix la creació de les següents entitats:
 
 ---
 
-## 3. Provisionament i Compartició de la Carpeta Home — [1 Punt]
+## 3. Provisionament i Compartició de la Carpeta Home 
 
 ### Disseny de l'Emmagatzematge Físic
 1. **Adscripció de maquinari:** Afegir un volum de disc dur virtual de 5 GB d'emmagatzematge secundari al servidor d'infraestructura.
@@ -52,7 +52,7 @@ Dins de l'OU `Grups`, es requereix la creació de les següents entitats:
 
 ---
 
-## 4. Estructuració de Permisos NTFS i Seguretat Avançada — [2 Punts]
+## 4. Estructuració de Permisos NTFS i Seguretat Avançada 
 
 ### Procediment de Hardening de l'Estructura de Fitxers
 1. Obrir les propietats del directori físic `E:\personal` i navegar a la pestanya `Security` -> `Advanced`.
@@ -68,7 +68,7 @@ Dins de l'OU `Grups`, es requereix la creació de les següents entitats:
 
 ---
 
-## 5. Disseny de Plantilles d'Usuari (User Templates) — [1 Punt]
+## 5. Disseny de Plantilles d'Usuari (User Templates) 
 
 ### Nomenclatura i Seguretat d'Objectes
 Crear tres objectes de tipus usuari per actuar com a models de configuració base dins de l'OU `Usuaris`:
@@ -82,7 +82,7 @@ Crear tres objectes de tipus usuari per actuar com a models de configuració bas
 
 ---
 
-## 6. Automatització de Paràmetres en les Plantilles — [3 Punts]
+## 6. Automatització de Paràmetres en les Plantilles 
 
 ### Assignació Departamental
 A les propietats de cada compte de plantilla (`_gestio`, `_magatzem`, `_gerencia`), navegar a la pestanya **Member Of** i adscriure el compte al seu grup de seguretat corresponent.
